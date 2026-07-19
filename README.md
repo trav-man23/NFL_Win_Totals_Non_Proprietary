@@ -1,5 +1,5 @@
 # NFL_Win_Totals_Non_Proprietary
-The high level overview of how my prediction model works - the methodology, approach, and results, while keeping my exact code private. 
+The high level overview of how my prediction model works: the methodology, approach, and results. My exact code is private and proprietary.
 
 ## Summary
 
