@@ -9,7 +9,7 @@ A machine learning pipeline that predicts each NFL team's next-season win total 
 
 ## Why this project
 
-I have a statistics background and wanted a project that combined that training with real-world data — a sportsbook line is, by design, a very well-calibrated prediction made by people with strong financial incentive to get it right. Beating it even modestly is a meaningful test of a model, not just an accuracy exercise on a static dataset. And if it ends up being good enough to make me some money, even better. 
+I have a statistics background and wanted a project that combined that training with real-world data. Sports betting, by design, has well thought out betting lines made by people with strong incentive to get it right. Beating it even modestly is meaningful, not just a side project or an accuracy exercise on a dataset. And if it ends up being good enough to make me some money, even better. 
 
 ## Approach
 
