@@ -46,11 +46,11 @@ The clearest signal shows up when bets are bucketed by model-predicted EV decile
 
 ## What I'd improve next
 
-- **Sample size** This project has 10 seasons of data - which is exciting but it is year over year data, and the NFL only has 32 teams, and I am betting on less than 32. So the results here while encouraging are by no means sufficiently statistically significant. Applying a framework like this to games instead of seasons would greatly increase sample sizes. 
-- **Feature engineering rigor** — some inputs (like Vegas win totals themselves) were pulled in manually rather than scraped, which was a pragmatic tradeoff but introduces a manual step that doesn't scale and is worth automating.
-- **Model selection stability** — the best-performing model combination shifts somewhat between backtest windows; worth testing whether a simpler, more stable model loses much accuracy relative to the current best, but less stable, ensemble.
-- **Uncertainty calibration** — the Beta-Binomial simulation's variance parameter is currently hand-tuned; a more rigorous calibration process would make the EV estimates more trustworthy but I decided the complexity tradeoff was not worth it for the scope of this work.
-- **Closing-line comparison** — the model is currently evaluated against the opening line; comparing against the closing line would show whether the edge exists before or after the market has priced in new information.
+- **Sample size**: This project has 10 seasons of data - which is exciting but it is year over year data, and the NFL only has 32 teams, and I am betting on less than 32. So the results here while encouraging are by no means sufficiently statistically significant. Applying a framework like this to games instead of seasons would greatly increase sample sizes. 
+- **Feature engineering rigor**: Some inputs (like Vegas win totals themselves) were pulled in manually rather than scraped, which was a pragmatic tradeoff but introduces a manual step that doesn't scale and is worth automating.
+- **Model selection stability**: The best-performing model combination shifts somewhat between backtest windows; worth testing whether a simpler, more stable model loses much accuracy relative to the current best, but less stable, ensemble.
+- **Uncertainty calibration**: The Beta-Binomial simulation's variance parameter is currently hand-tuned; a more rigorous calibration process would make the EV estimates more trustworthy but I decided the complexity tradeoff was not worth it for the scope of this work.
+- **Closing-line comparison**: The model is currently evaluated against the opening line; comparing against the closing line would show whether the edge exists before or after the market has priced in new information.
 
 ## Stack
 
