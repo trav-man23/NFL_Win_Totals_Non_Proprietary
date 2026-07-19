@@ -46,7 +46,7 @@ The clearest signal shows up when bets are bucketed by model-predicted EV decile
 
 ![Distribution of Expected Wins vs. Vegas Line, by EV decile](assets/ev_decile_calibration.png)
 
-## What I'd improve next
+## Next Steps/Improvements
 - **Pay for data**: Scraping and aggregating data across various websites is a time consuming process and limits the quality of data I can have. For a more expansive version of this project, purchasing data would allow me to focus my efforts on the modeling and methodology, not the data cleaning and aggregation.
 - **Sample size**: This project has 10 seasons of data - which is exciting but it is year over year data, and the NFL only has 32 teams, and I am betting on less than 32. So the results here while encouraging are by no means sufficiently statistically significant. Applying a framework like this to games instead of seasons would greatly increase sample sizes. 
 - **Feature engineering rigor**: Some inputs (like Vegas win totals themselves) were pulled in manually rather than scraped, which was a pragmatic tradeoff but introduces a manual step that doesn't scale and is worth automating.
